@@ -16,7 +16,7 @@ export default function Hero() {
       {/* Animated gradient background (no external tokens) */}
       <div
         aria-hidden
-        className="absolute inset-0 [mask-image:radial-gradient(ellipse_at_center,white,transparent_70%)]"
+        className="absolute inset-0 pointer-events-none [mask-image:radial-gradient(ellipse_at_center,white,transparent_70%)]"
       >
         <div className="absolute -inset-[10%] bg-[conic-gradient(at_70%_120%,#dbeafe_0deg,#a5b4fc_120deg,#fecaca_240deg,#dbeafe_360deg)] animate-[spin_20s_linear_infinite] opacity-30" />
       </div>
